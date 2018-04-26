@@ -6,3 +6,17 @@ body {
 a {
   color: #00B7FF;
 }
+.people {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person {
+    margin: 5px;
+    padding: 5px;
+    background-color: slategray;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 3px;
+}
